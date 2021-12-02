@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@config/*": ["config/*"],
+      "@hooks/*": ["hooks/*"],
+      "@layouts/*": ["layouts/*"],
+      "@models/*": ["models/*"],
+      "@about-us/*": ["modules/about-us/*"],
+      "@cart/*": ["modules/cart/*"],
+      "@checkout/*": ["modules/checkout/*"],
+      "@contact/*": ["modules/contact/*"],
+      "@home/*": ["modules/home/*"],
+      "@password/*": ["modules/password/*"],
+      "@product/*": ["modules/product/*"],
+      "@user/*": ["modules/user/*"],
+      "@services": ["services"],
+      "@services/*": ["services/*"],
+      "@stores/*": ["stores/*"],
+      "@themes/*": ["themes/*"],
+      "@utils/*": ["utils/*"],
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
